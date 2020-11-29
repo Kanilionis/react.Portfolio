@@ -5,9 +5,11 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer"
 
 function App() {
   return (
+    <>
     <Router>
       <div>
         <NavTabs />
@@ -18,6 +20,8 @@ function App() {
         <Route path="/contact" component={Contact} />
       </div>
     </Router>
+    <Footer></Footer>
+    </>
   );
 }
 
