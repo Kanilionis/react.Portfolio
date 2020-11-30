@@ -1,6 +1,7 @@
 import React from "react"
-import projects from "../projects.json";
+import projects from "../projects";
 import ProjectCard from "../components/ProjectCard"
+import Wrapper from "../components/Wrapper"
 import "../index.css"
 var myWork = "{ . . . m y W o r k }"
 
@@ -33,13 +34,18 @@ class Projects extends React.Component {
         </div>
         </div>
         </div>
-{this.state.projects.map(project => (
-  <>
-  <ProjectCard key={project.id} {...project} showProjectCard={this.showProjectCard}/>
-  </>
-))}
+        <Wrapper>
+          {this.state.projects.map(project => (
+          <ProjectCard 
+          key={project.id} 
+          id={project.id}
+          title={project.title}
+          description={project.description}
+          image={project.image}
+          />
+          ))}
+        </Wrapper>
 
-     
       </>
  
   )

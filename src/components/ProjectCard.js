@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css"
+
 // import github from "../images/github.png"
 // import heroku from "../images/heroku.png"
 // import gh from "../images/gh-pages.png"
@@ -8,8 +9,12 @@ import "../index.css"
 function ProjectCard(props){
   return (
     <>
+    
     <div className="card">
-      <img src={props.image} className="card-img-top" alt="project"/>
+  
+    <div className="img-container">
+      <img src={props.image} className="card-img-top" alt={props.title}/>
+      </div>
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>
         <p className="card-text">{props.description}</p>
@@ -19,8 +24,9 @@ function ProjectCard(props){
         <a className="card-link" href={props.deployedLink}>Deployed</a>
       </div>
         </div>
-        
-      </div>
+        </div>
+
+  
   
 
     </>

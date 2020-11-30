@@ -31,29 +31,29 @@ function Contact() {
       </div>
     </div>
     <form className="container-fluid">
-        <div className="row">
+        <div className="contact-row row">
             <div className="col-lg-6 col-md-7 col-sm-8 col-xs-9">
-                <label for="formGroupExampleInput">Name</label>
+                <label for="formGroupExampleInput">name</label>
                 <input type="text" className="form-control" id="formGroupExampleInput" placeholder="e.g. Ian Rogers"/>
             </div>
           </div>
-          <br></br>
-          <div className="row">
+          
+          <div className="contact-row row">
             <div className="col-lg-6 col-md-7 col-sm-8 col-xs-9">
-                <label for="formGroupExampleInput2">Email Address</label>
+                <label for="formGroupExampleInput2">email</label>
                 <input type="text" className="form-control" id="formGroupExampleInput2" placeholder="e.g. irogers@centleasing.com"/>
             </div>
           </div>
-          <br></br>
-          <div className="row">
+         
+          <div className="contact-row row">
             <div className="col-lg-6 col-md-7 col-sm-8 col-xs-9">
-                <label for="formGroupExampleInput2">Message</label>
+                <label for="formGroupExampleInput2">message</label>
                 <textarea type="text" className="form-control" id="formGroupExampleInput2" rows="3" placeholder="Type your message here..."></textarea> 
             </div>
           </div>  
-          <br></br>
+        
     <form className="row">
-        <div className="intheknow col-12">
+        <div className="contact-row intheknow col-12">
             <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
             <label className="form-check-label check" for="exampleCheck1">Check here to stay in the know</label>
           </div>
