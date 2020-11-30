@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Employee Directory",
+    "description": "",
+    "gitHubLink": "https://github.com/Kanilionis/reactEmployeeDirectory",
+    "deployedLink": "https://kanilionis.github.io/reactEmployeeDirectory/",
+    "image": "/images/employee-directory.png"
+  },
+  {
+    "id": 2,
+    "title": "Budget Tracker",
+    "description": "",
+    "gitHubLink": "https://github.com/Kanilionis/BudgetTracker",
+    "deployedLink": "https://katiesmoney.herokuapp.com/",
+    "image": "/images/budget-tracker.png"
+  },
+  {
+    "id": 3,
+    "title": "Fitness Tracker",
+    "description": "",
+    "gitHubLink": "https://github.com/Kanilionis/FitnessTracker",
+    "deployedLink": "https://kafitnesstracker.herokuapp.com/stats",
+    "image": ""
+  },
+  {
+    "id": 4,
+    "title": "Burger Logger",
+    "description": "",
+    "gitHubLink": "https://github.com/Kanilionis/BurgerLogger",
+    "deployedLink": "https://katieanilionis-burgerlogger.herokuapp.com/",
+    "image": ""
+  },
+  {
+    "id": 5,
+    "title": "Note Taker",
+    "description": "",
+    "gitHubLink": "https://github.com/Kanilionis/NoteTaker",
+    "deployedLink": "https://sheltered-caverns-28727.herokuapp.com/",
+    "image": ""
+  },
+  {
+    "id": 6,
+    "title": "Dog Friendly Denver",
+    "description": "",
+    "gitHubLink": "https://github.com/Kanilionis/DogFriendlyDenver",
+    "deployedLink": "https://kanilionis.github.io/DogFriendlyDenver/",
+    "image": ""
+  },
+  {
+    "id": 7,
+    "title": "Work Day Scheduler",
+    "description": "",
+    "gitHubLink": "https://github.com/Kanilionis/Homework5Calendar",
+    "deployedLink": "https://kanilionis.github.io/Homework5Calendar/",
+    "image": ""
+  }
+]

@@ -1,11 +1,15 @@
 import React from "react";
-import logo from "./logo.png"
+import logo from "../images/logo.png"
+import { Link, useLocation } from "react-router-dom";
+import "../index.css"
+
 
 function Header(){
+  const location = useLocation();
   return(
     <>
-  
-    <img className="logo" src={logo} alt="logo" height="80px" width="auto"/>
+   <Link to="/" className="logo-img"><img src={logo} alt="logo" height="60px" width="auto"/>
+        </Link>
    
     </>
   )

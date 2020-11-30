@@ -225,7 +225,68 @@ main {
   }
 }
 
-    
+
+/* CARD  */
+
+.card-body{
+  margin-top: 10%;
+  margin-left: 40%;
+  border: none
+}
+button {
+  cursor: pointer
+ }
+
+ .about{
+   margin-top: 7%;
+   font-family: 'Jura', sans-serif;
+
+ }
+
+ .contact-links {
+   margin-top: 8%;
+   text-align: center;
+   font-size: 40px;
+   font-family: 'Jura', sans-serif;
+ }
+
+ .link-buttons{
+   padding: 10px;
+
+ }
+
+ .home{
+   overflow: hidden;
+   position: absolute;
+   margin-left: 28%;
+  margin-top: 17%;
+  font-family: 'Jura', sans-serif;
+ }
+
+ .text-home{
+   font-size: 15px;
+   text-align: right
+ }
+
+ .logo-img{
+   margin-left: 15px;
+ }
+
+
+ .intheknow{
+  font-family: 'Jura', sans-serif;
+  margin-left: 20px
+ }   
+
+ form{
+  font-family: 'Jura', sans-serif;
+ }
+
+ .submitBtn{
+   margin-left: 14px;
+   font-family: 'Jura', sans-serif;
+   margin-top: 5px
+ }
 
 
 
