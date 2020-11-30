@@ -150,6 +150,7 @@ main {
   overflow: hidden;
 }
 .wave {
+  Z-index: -1;
   position: fixed;
   bottom: -5%;
   left: 0;
@@ -160,7 +161,7 @@ main {
   --opacity: 0.3;
   --height: 12;
   --width: 320;
-  --lightness: 90;
+  --lightness: 80;
   --rise: 2;
 }
 .wave:nth-of-type(2) {
@@ -168,7 +169,7 @@ main {
   --opacity: 0.6;
   --height: 10;
   --width: 200;
-  --lightness: 95;
+  --lightness: 90;
   --rise: 5;
 }
 .wave:nth-of-type(3) {
@@ -285,7 +286,7 @@ button {
  }
 
  .contact-row{
-   padding-top: 7px
+   padding-top: 12px
  }
  
 
@@ -294,8 +295,6 @@ button {
   border-radius: 2px;
   height: 325px;
   margin: 1rem;
-
-
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: center;
 }
@@ -314,7 +313,7 @@ button {
   font-size: 15px;
 }
 
-/* .card > .content > ul {
+.card > .content > ul {
   list-style-type: none;
 }
 
@@ -322,6 +321,21 @@ button {
   margin-top: 18px;
 }
 
- */
+.card-img{
+  border: solid lightgray 20px;
+  background-color: lightgray
+}
+
+.card-title{
+  margin-top: -13px;
+  font-family: 'Jura', sans-serif;
+  background-color: lightgray
+ 
+}
+
+.card-body{
+  margin-top: -20px;
+  background-color: lightgray
+}
 
 

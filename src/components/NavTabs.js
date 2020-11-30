@@ -15,13 +15,13 @@ function NavTabs() {
       <Header className="col-8"></Header>
     <ul id="menu">
       <li className="nav-item">
-        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+        <Link to="/react.Portfolio" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/about"
+          to="/react.Portfolio/about"
           className={location.pathname === "/about" ? "nav-link" : "nav-link"}
         >
           About
@@ -29,7 +29,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/projects"
+          to="/react.Portfolio/projects"
           className={location.pathname === "/projects" ? "nav-link" : "nav-link"}
         >
           Projects
@@ -37,7 +37,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/contact"
+          to="/react.Portfolio/contact"
           className={location.pathname === "/contact" ? "nav-link" : "nav-link"}
         >
           Contact

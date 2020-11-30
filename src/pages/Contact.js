@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import github from "../images/github.png"
-import instagram from "../images/instagram.png"
-import linkedin from "../images/linkedin.png"
+import github from "../../src/images/github.png"
+import instagram from "../../src/images/instagram.png"
+import linkedin from "../../src/images/linkedin.png"
 import "../index.css"
 var contactMe = "{ . . . c o n t a c t M e }"
 

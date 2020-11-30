@@ -1,3 +1,5 @@
+
+
 [
   {
     "id": 1,
@@ -5,7 +7,7 @@
     "description": "",
     "gitHubLink": "https://github.com/Kanilionis/reactEmployeeDirectory",
     "deployedLink": "https://kanilionis.github.io/reactEmployeeDirectory/",
-    "image": "../public/images/employee-directory.png"
+    "image": "../images/employee-directory.png"
   },
   {
     "id": 2,
@@ -13,7 +15,7 @@
     "description": "",
     "gitHubLink": "https://github.com/Kanilionis/BudgetTracker",
     "deployedLink": "https://katiesmoney.herokuapp.com/",
-    "image": "../public/images/budget-tracker.png"
+    "image": "budget-tracker.png"
   },
   {
     "id": 3,

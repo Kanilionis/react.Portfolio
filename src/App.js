@@ -15,10 +15,10 @@ function App() {
       <div>
         <NavTabs />
         {/* telling the browser to reference the component WHEN the /"whatever" is in the browser http */}
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/projects" component={Projects} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/react.Portfolio" component={Home} />
+        <Route exact path="/react.Portfolio/about" component={About} />
+        <Route exact path="/react.Portfolio/projects" component={Projects} />
+        <Route path="/react.Portfolio/contact" component={Contact} />
       </div>
     </Router>
     <Footer></Footer>
