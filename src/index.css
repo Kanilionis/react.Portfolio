@@ -1,4 +1,6 @@
-
+.hidden{
+  display: none
+}
 #navbar {
   background: white;
   color: rgb(13, 26, 38);
@@ -20,7 +22,7 @@
       width: 90%;
     }
   } 
-@media(max-width: 638px) {
+@media(max-width: 375px) {
       .nav-wrapper {
         width: 100%;
       }
@@ -48,16 +50,16 @@
   transition: transform 0.5s ease-out;
   -webkit-transition: transform 0.5s ease-out;
 } 
-@media(max-width: 640px) {
+/* @media(max-width: 200px) {
     #navbar ul {
       display: none;
     }
-  } 
-@media(orientation: landscape) {
+  }  */
+/* @media(orientation: landscape) {
     #navbar ul {
-      display: inline-block;
+      display: block;
     }
-  }
+  } */
 
 #navbar li {
   display: inline-block;
@@ -234,10 +236,34 @@ button {
   cursor: pointer
  }
 
- .about{
-   margin-top: 7%;
-   font-family: 'Jura', sans-serif;
+#paragraph1{
+  margin-top: 15%;
 
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+   font-family: 'Jura', sans-serif;
+   height: 225px;
+   width: 650px;
+   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+   border-radius: 2px;
+}
+@media(max-width: 380px){
+  .paragraph1{
+    width: 260px
+  }
+}
+
+ .bench-pic{
+   margin-top: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  height: 281px;
+  width: 251px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  border-radius: 2px;
  }
 
  .contact-links {
@@ -251,13 +277,18 @@ button {
    padding: 10px;
 
  }
+ .jumbotron-fluid{
+   float: right
+ }
 
  .home{
    overflow: hidden;
-   position: absolute;
+   margin-right: 2rem;
+   /* position: absolute; */
    margin-left: 28%;
-  margin-top: 17%;
-  font-family: 'Jura', sans-serif;
+   margin-top: 19%;
+   font-family: 'Jura', sans-serif;
+ 
  }
 
  .text-home{
@@ -289,7 +320,22 @@ button {
    padding-top: 12px
  }
  
+ .carousel{
+   width: 900px
+ }
 
+ .carousel-item{
+   padding-bottom: 40px
+ }
+
+  .carousel .carousel-indicators li {
+    background-color: grey;
+    width: 10px;
+    height: 10px;
+    margin: 8px;
+    border-radius: 100%;
+  }
+ 
  .card {
   font-family: 'Jura', sans-serif;
   border-radius: 2px;
@@ -339,3 +385,35 @@ button {
 }
 
 
+.resume{
+  margin-top: 30px;
+  border-radius: 2px;
+  height: 942px;
+  width: 782px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  
+}
+.git-img{
+  margin-right: 2px
+}
+.github-link{
+  background-color: white;
+  padding: 4px;
+  margin-top: 3%;
+  /* margin-left: -10px; */
+  font-family: 'Jura', sans-serif;
+  border-radius: 2px;
+  height: 60px;
+  width: 220px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: center;
+}
+
+
+/* .github-img{
+  margin-top: 185px;
+  margin-left: 10px
+} */

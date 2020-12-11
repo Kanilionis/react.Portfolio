@@ -1,6 +1,6 @@
 import React from "react"
-
-import Card from "react-bootstrap/Card"
+import ProjectCard from "../components/ProjectCard"
+import Carousel from "react-bootstrap/Carousel"
 import Wrapper from "../components/Wrapper"
 import "../index.css"
 var myWork = "{ . . . m y W o r k }"
@@ -63,15 +63,8 @@ const projectsArray =
     "gitHubLink": "https://github.com/Kanilionis/Homework5Calendar",
     "deployedLink": "https://kanilionis.github.io/Homework5Calendar/",
     "image": "/react.Portfolio/workdayscheduler.png"
-  },
-  {
-    "id": 8,
-    "title": "Resume",
-    "description": "",
-    "gitHubLink": "https://kanilionis.github.io/Resume/",
-    "deployedLink": "/react.Portfolio/katie.anilionis.resume.pdf",
-    "image": "/react.Portfolio/resumeicon.png"
   }
+
 ]
 
 
@@ -108,23 +101,16 @@ class Projects extends React.Component {
         </div>
         <br></br>
         <Wrapper>
+          <center>
+          <Carousel className="carousel">
           {this.state.projectsArray.map(project => (
-  
-          <Card style={{ width: '18rem' }}>
-          <Card.Img height="260px" width="auto" className="card-img" variant="top" src={project.image} alt={project.title}/>
-          <Card.Body>
-            <Card.Title className="card-title">{project.title}</Card.Title>
-            <Card.Text className="card-text">
-             {project.description}
-            </Card.Text>
-          </Card.Body>
+            <Carousel.Item className="carousel-item">
+            <ProjectCard {...project}/>
+            </Carousel.Item>
          
-          <Card.Body className="card-body" >
-            <Card.Link href={project.gitHubLink}>Repository</Card.Link>
-            <Card.Link href={project.deployedLink}>Deployed App</Card.Link>
-          </Card.Body>
-        </Card>
           ))}
+          </Carousel>
+          </center>
         </Wrapper>
         <br></br>
         <br></br>
