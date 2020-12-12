@@ -13,20 +13,27 @@ function ProjectCard(props){
   
   return (
     <>
-    <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={props.image} alt={props.title}/>
-  <Card.Body>
-    <Card.Title>{props.title}</Card.Title>
-    <Card.Text>
-     {props.description}
-    </Card.Text>
-  </Card.Body>
- 
-  <Card.Body>
-    <Card.Link href={props.gitHubLink}>Repository</Card.Link>
-    <Card.Link href={props.deployedLink}>Deployed App</Card.Link>
-  </Card.Body>
-</Card>
+  <div className="container">
+      
+  <Card className="card">
+    <div className="row">
+      
+      <Card.Body className="col-3 card-body">
+        <Card.Title>{props.title}</Card.Title>
+        <Card.Text className="card-text">
+        {props.description}sdllsdkgnvalksdfhgnlkajsdf
+        </Card.Text>
+        <Card.Link className="card-text" href={props.gitHubLink}>repository</Card.Link>
+        <Card.Link href={props.deployedLink}>deployed app</Card.Link>
+      </Card.Body>
+     
+      </div>
+     
+      <Card.Img className="col-4 float-left"src={props.image} alt={props.title}/>
+      
+  </Card>
+</div>
+
     </>
     )
   }

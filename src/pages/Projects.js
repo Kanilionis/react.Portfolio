@@ -10,7 +10,7 @@ const projectsArray =
 [
   {
     "id": 1,
-    "title": "Employee Directory",
+    "title": "employee directory",
     "description": "",
     "gitHubLink": "https://github.com/Kanilionis/reactEmployeeDirectory",
     "deployedLink": "https://kanilionis.github.io/reactEmployeeDirectory/",
@@ -18,7 +18,7 @@ const projectsArray =
   },
   {
     "id": 2,
-    "title": "Budget Tracker",
+    "title": "budget tracker",
     "description": "",
     "gitHubLink": "https://github.com/Kanilionis/BudgetTracker",
     "deployedLink": "https://katiesmoney.herokuapp.com/",
@@ -26,7 +26,7 @@ const projectsArray =
   },
   {
     "id": 3,
-    "title": "Fitness Tracker",
+    "title": "fitness tracker",
     "description": "",
     "gitHubLink": "https://github.com/Kanilionis/FitnessTracker",
     "deployedLink": "https://kafitnesstracker.herokuapp.com/stats",
@@ -34,7 +34,7 @@ const projectsArray =
   },
   {
     "id": 4,
-    "title": "Burger Logger",
+    "title": "burger logger",
     "description": "",
     "gitHubLink": "https://github.com/Kanilionis/BurgerLogger",
     "deployedLink": "https://katieanilionis-burgerlogger.herokuapp.com/",
@@ -42,7 +42,7 @@ const projectsArray =
   },
   {
     "id": 5,
-    "title": "Note Taker",
+    "title": "note taker",
     "description": "",
     "gitHubLink": "https://github.com/Kanilionis/NoteTaker",
     "deployedLink": "https://sheltered-caverns-28727.herokuapp.com/",
@@ -50,7 +50,7 @@ const projectsArray =
   },
   {
     "id": 6,
-    "title": "Dog Friendly Denver",
+    "title": "dog friendly denver",
     "description": "",
     "gitHubLink": "https://github.com/Kanilionis/DogFriendlyDenver",
     "deployedLink": "https://kanilionis.github.io/DogFriendlyDenver/",
@@ -58,7 +58,7 @@ const projectsArray =
   },
   {
     "id": 7,
-    "title": "Work Day Scheduler",
+    "title": "work day scheduler",
     "description": "",
     "gitHubLink": "https://github.com/Kanilionis/Homework5Calendar",
     "deployedLink": "https://kanilionis.github.io/Homework5Calendar/",
@@ -114,6 +114,7 @@ class Projects extends React.Component {
         </Wrapper>
         <br></br>
         <br></br>
+        
 
       </>
  

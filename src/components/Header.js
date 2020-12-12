@@ -9,7 +9,7 @@ function Header(){
   
   return(
     <>
-   <Link to="/" className="logo-img"><img src={logo} alt="logo" height="60px" width="auto"/>
+   <Link to="/react.Portfolio" className="logo-img"><img src={logo} alt="logo" height="60px" width="auto"/>
         </Link>
    
     </>
