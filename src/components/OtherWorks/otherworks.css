@@ -1,0 +1,39 @@
+
+.other-card-text{
+  font-family: 'Montserrat', sans-serif;  
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+}
+
+.other-works-body{
+  color: black;
+  box-shadow: 0 3px 4px black;
+  border: 2px solid black;
+  margin-bottom: 15px
+}
+
+.other-works-img{
+  height: 150px;
+padding: 2px
+
+}
+
+
+.other-card-title{
+  font-family: 'Montserrat', sans-serif;  
+  text-transform: uppercase;
+  text-align: center;
+  /* border: 2px solid black; */
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  padding-top: 3px
+}
+
+
+
+
+/* .other-works-card{
+  margin: -10px
+} */

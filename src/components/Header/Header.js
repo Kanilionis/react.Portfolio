@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../../src/images/logo.png"
+import logo from "../../../src/images/logo.png"
 import { Link } from "react-router-dom";
-import "../index.css"
+import "./header.css"
 
 
 

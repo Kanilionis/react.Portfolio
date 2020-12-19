@@ -1,0 +1,30 @@
+.intheknow{
+  font-family: 'Jura', sans-serif;
+  margin-left: 20px
+ }   
+
+ form{
+  font-family: 'Jura', sans-serif;
+ }
+
+ .submitBtn{
+   margin-left: 0px;
+   font-family: 'Jura', sans-serif;
+   margin-top: 10px
+ }
+
+ .contact-row{
+   padding-top: 12px
+ }
+
+ .contact-links {
+  margin-top: 1%;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Jura', sans-serif;
+}
+
+.link-buttons{
+  padding: 10px;
+
+}

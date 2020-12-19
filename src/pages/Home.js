@@ -1,4 +1,6 @@
 import React from "react"
+import "../index.css"
+import Footer from "../components/Footer/Footer"
 var decName = "{ . . . k a t i e A n i l i o n i s }"
 function Home() {
   return (
@@ -11,6 +13,7 @@ function Home() {
     <p className="text-home">Welcome! Flip through to learn more about me, my projects, my career, and more! </p>
   </div>
 </div>
+<Footer/>
     </>
   )
 }

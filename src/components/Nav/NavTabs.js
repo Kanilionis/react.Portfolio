@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import Header from "./Header";
-import "../index.css"
+import Header from "../Header/Header";
+import "./nav.css"
 import { Button, Form, FormControl, Navbar, Nav, NavDropdown } from "react-bootstrap"
 
 function NavTabs() {
@@ -13,12 +13,12 @@ function NavTabs() {
 
   return (
     <>
-    <Navbar expand="lg"  className="nav-wrapper container-fluid">
+    <Navbar expand="lg"  className="container-fluid">
       <Header ></Header>
-      <Navbar.Brand href="#home"></Navbar.Brand>
+      {/* <Navbar.Brand href="#home"></Navbar.Brand> */}
       <Navbar.Toggle ariaControls="basic-navbar-nav" />
       <Navbar.Collapse id="navbar" >
-        <Nav className="mr-auto col-sm-1 col-md-6 col-lg-10" id="menu">
+        <Nav className="nav-wrapper col-sm-1 col-md-6 col-lg-12" id="menu">
           <ul>
             <li className="nav-item">
             <Link to="/react.Portfolio" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>

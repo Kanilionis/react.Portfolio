@@ -3,6 +3,7 @@ import { Viewer, Worker } from '@react-pdf-viewer/core';
 import resume from "../images/katie.anilionis.resume.pdf";
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import github from "../images/github.png"
+import Footer from "../components/Footer/Footer"
 var myResume = "{ . . . m y R e s u m e }"
 function Resume(){
 
@@ -38,6 +39,8 @@ function Resume(){
     
    
     </center>
+    <Footer/>
+
     </>
   )
 

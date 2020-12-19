@@ -1,6 +1,7 @@
 import React from "react"
 import bench from "../images/bench.jpg"
 import "../index.css"
+import Footer from "../components/Footer/Footer"
 var aboutMe = "{ . . . a b o u t M e }"
 
 function About() {
@@ -30,6 +31,7 @@ function About() {
       </div>
     </div>    
   </div>
+  <Footer/>
     </>
   )
 }
