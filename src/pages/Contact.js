@@ -14,8 +14,8 @@ function Contact() {
     <>
      <div className="contact-links container-fluid"> 
       <div className="row">
-        <div className="col-4"></div>
-        <div className="col-4 contact">{contactMe}<br></br>
+        <div className="col-3"></div>
+        <div className="col-6 contact">{contactMe}<br></br>
           <Link to="https://www.instagram.com/katieanilionis" target="_blank" rel="noreferrer">
           <img className="link-buttons" src={instagram} height="50px" width="auto" alt="instagram"/>
           </Link>
@@ -29,12 +29,17 @@ function Contact() {
           </Link>
           {/* <img src={linkedin} height="50px" width="auto" alt="linkedin" onClick="https://www.linkedin.com/in/katie-anilionis-4720258a/" role="button">
           </img> */}
+  <br></br>
+    <center className="contact-form">
+        <MyForm />
+
+    </center>
         </div>
-        <div className="col-4"></div>
+        
+        <div className="col-3"></div>
       </div>
     </div>
     
-    <MyForm/>
     
    
     <Footer/>

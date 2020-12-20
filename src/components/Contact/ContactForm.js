@@ -19,20 +19,20 @@ export default class MyForm extends React.Component {
         method="POST"
       >
         <div className="contact-row row">
-            <div className="col-lg-6 col-md-7 col-sm-8 col-xs-9">
+            <div className="col-12">
                 <label for="formGroupExampleInput">name</label>
                 <input type="text" className="form-control" id="formGroupExampleInput" placeholder="e.g. Ian Rogers"/>
             </div>
           </div>
           <div className="contact-row row">
-            <div className="col-lg-6 col-md-7 col-sm-8 col-xs-9">
+            <div className="col-12">
                 <label for="formGroupExampleInput2">email</label>
                 <input type="email" className="form-control" id="formGroupExampleInput2" placeholder="e.g. irogers@centleasing.com" name="email" />
             </div>
           </div>
          
           <div className="contact-row row">
-            <div className="col-lg-6 col-md-7 col-sm-8 col-xs-9">
+            <div className="col-12">
                 <label for="formGroupExampleInput2">message</label>
                 <textarea type="text" name="message" className="form-control" id="formGroupExampleInput2" rows="3" placeholder="Type your message here..."></textarea> 
             </div>
