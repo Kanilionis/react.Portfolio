@@ -16,7 +16,7 @@ function App() {
       <div>
         <NavTabs />
         {/* telling the browser to reference the component WHEN the /"whatever" is in the browser http */}
-        <Route exact path="/react.Portfolio" component={Home}></Route>
+        <Route exact path="/" component={Home}></Route>
         <Route exact path="/react.Portfolio/about" component={About} />
         <Route exact path="/react.Portfolio/projects" component={Projects} />
         <Route exact path="/react.Portfolio/resume" component={Resume} />
