@@ -25,25 +25,25 @@ function NavTabs() {
             Home</Link>
             </li>
             <li className="nav-item">
-          <Link to="/react.Portfolio/about"
+          <Link to="/about"
           className={location.pathname === "/about" ? "nav-link" : "nav-link"}
         >
           About</Link>
           </li>
           <li className="nav-item">
-          <Link to="/react.Portfolio/projects"
+          <Link to="/projects"
           className={location.pathname === "/projects" ? "nav-link" : "nav-link"}
         >
           Projects</Link>
           </li>
           <li className="nav-item">
-          <Link to="/react.Portfolio/resume"
+          <Link to="/resume"
           className={location.pathname === "/resume" ? "nav-link" : "nav-link"}
         >
           Resume</Link>
           </li>
           <li className="nav-item">
-          <Link to="/react.Portfolio/contact"
+          <Link to="/contact"
           className={location.pathname === "/contact" ? "nav-link" : "nav-link"}
         >
           Contact</Link>

@@ -17,10 +17,10 @@ function App() {
         <NavTabs />
         {/* telling the browser to reference the component WHEN the /"whatever" is in the browser http */}
         <Route exact path="/" component={Home}></Route>
-        <Route exact path="/react.Portfolio/about" component={About} />
-        <Route exact path="/react.Portfolio/projects" component={Projects} />
-        <Route exact path="/react.Portfolio/resume" component={Resume} />
-        <Route path="/react.Portfolio/contact" component={Contact} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/resume" component={Resume} />
+        <Route path="/contact" component={Contact} />
       </div>
     </Router>
     
