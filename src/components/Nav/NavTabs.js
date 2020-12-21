@@ -21,7 +21,7 @@ function NavTabs() {
         <Nav className="nav-wrapper col-sm-1 col-md-6 col-lg-12" id="menu">
           <ul>
             <li className="nav-item">
-            <Link to="/react.Portfolio" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+            <Link to="/react.Portfolio" className={location.pathname === "/react.Portfolio" ? "nav-link active" : "nav-link"}>
             Home</Link>
             </li>
             <li className="nav-item">
