@@ -30,7 +30,9 @@ function Contact() {
           {/* <img src={linkedin} height="50px" width="auto" alt="linkedin" onClick="https://www.linkedin.com/in/katie-anilionis-4720258a/" role="button">
           </img> */}
   <br></br>
+  <center className="email-contact">kanilionis@gmail.com</center>
     <center className="contact-form">
+
         <MyForm />
 
     </center>
