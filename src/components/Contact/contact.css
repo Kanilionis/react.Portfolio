@@ -3,6 +3,12 @@
   margin-left: 20px
  }   
 
+ .email-contact{
+  font-family: 'Jura', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
  form{
   font-family: 'Jura', sans-serif;
   font-size: 20px;
@@ -15,7 +21,7 @@
  }
 
  .contact-row{
-   padding-top: 12px
+   padding-top: 18px
  }
 
  .contact-links {
